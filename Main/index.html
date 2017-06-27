@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <script src="../js/functions.js"></script>
 
     <link rel="stylesheet" href="../css/main_styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +36,18 @@
                 <button type="button" class="btn btn-primary btn-block"><h4>Walk</h4></button>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div id="map" style="margin-top:30px; height:400px; width:400px">My map will go here</div>
+            </div>
+        </div>
+        <script>
+            makeMap();
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8bwyeut8ERZI-GOj97VS83F86iAWLbi8&callback=makeMap"></script>
+
 
     </div>
 </body>
