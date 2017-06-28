@@ -1,4 +1,14 @@
-button.btn {
+a.btn-primary {
     background-color: #005a9c;
     border-color: #ffffff;
+}
+
+a.btn-success {
+    background-color: #009933;
+    border-color: white;
+}
+
+#changemove {
+    background-color: #005a9c;
+    color: white;
 }
