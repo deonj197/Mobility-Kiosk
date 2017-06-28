@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <title>Home</title>
+    <script src="../js/functions.js"></script>
 
+    <link rel="stylesheet" href="../css/main_styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron" style="margin-top:30px">
+        <img id="ford-logo" src="ford-logo.svg" height="100px">
+        <h1 style="float: right">Smart Mobility</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-2">
+            <a href="../Main/index.html" class="btn btn-primary btn-block">
+                <h4><span class="glyphicon glyphicon-home"></span> Home</h4>
+            </a>
+        </div>
+        <div class="col-lg-2">
+            <a href="../Car/Car.html" class="btn btn-primary btn-block">
+                <h4>Car</h4>
+            </a>
+        </div>
+        <div class="col-lg-2">
+            <a href="../Shuttle/Shuttle.html" class="btn btn-primary btn-block">
+                <h4>Shuttle</h4>
+            </a>
+        </div>
+        <div class="col-lg-2">
+            <a href="../Bikes/Bike.html" class="btn btn-primary btn-block">
+                <h4>Bike</h4>
+            </a>
+        </div>
+        <div class="col-lg-2">
+            <a href="../Walk/Walk.html" class="btn btn-primary btn-block">
+                <h4>Walk</h4>
+            </a>
+        </div>
+        <div class="col-lg-2">
+            <a href="../Best-Route/BestRoute.html" class="btn btn-success btn-block">
+                <h4><span class="glyphicon glyphicon-search"></span> Find Route</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="thumbnail" style="margin-top:30px">
+                <div id="map" style="width:inherit; height: 450px">My map will go here</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    makeMap();
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8bwyeut8ERZI-GOj97VS83F86iAWLbi8&callback=makeMap"></script>
 </body>
 </html>
