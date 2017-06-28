@@ -1,28 +1,4 @@
-header {
-    background-color: #005a9c;
-    text-align: center;
-}
-
-nav {
-    float: left;
-    padding-left: 40px;
-    padding-right: 40px;
-    height: 460px;
-
-}
-
-nav ul {
-    list-style-type: none;
-
-    padding-left: 0px;
-}
-
-nav ul a {
-    color: #005a9c;
-    text-decoration: none;
-}
-
-.btn-primary {
+button.btn {
     background-color: #005a9c;
     border-color: #ffffff;
 }
