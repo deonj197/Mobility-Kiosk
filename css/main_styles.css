@@ -21,3 +21,8 @@ nav ul a {
     color: #005a9c;
     text-decoration: none;
 }
+
+.btn-primary {
+    background-color: #005a9c;
+    border-color: #ffffff;
+}
