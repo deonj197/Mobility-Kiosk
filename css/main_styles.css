@@ -12,6 +12,6 @@ a.btn-success {
     background-color: #005a9c;
     color: white;
 }
-a.transparent {
-    opacity: .7;
+a.selected {
+    background-color: steelblue;
 }
