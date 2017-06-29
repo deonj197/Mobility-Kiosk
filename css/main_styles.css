@@ -5,10 +5,16 @@ a.btn-primary {
 
 a.btn-success {
     background-color: #009933;
-    border-color: white;
+    border-color: #009933;
 }
 
 #changemove {
     background-color: #005a9c;
+    color: white;
+}
+
+#photoGlove {
+    background-color: #00a7ba;
+    border-color: #00a7ba;
     color: white;
 }

@@ -17,9 +17,8 @@
 
 <body>
 <div class="container">
-    <div class="jumbotron" style="margin-top:30px">
-        <img id="ford-logo" src="ford-logo.svg" height="100px">
-        <h1 style="float: right">Smart Mobility</h1>
+    <div class="jumbotron" style="margin-top:30px; margin-left:0px; padding:0px; background-color:#fff";>
+        <img id="ford-logo" class="img-responsive" style="width:1140px" src="../images/Ford-Smart-Mobility.png">
     </div>
 
     <div class="row">
@@ -49,25 +48,42 @@
             </a>
         </div>
         <div class="col-lg-2">
-            <a href="../Best-Route/BestRoute.html" class="btn btn-success btn-block">
-                <h4><span class="glyphicon glyphicon-search"></span> Find Route</h4>
+            <a href="../Boat/Boat.html" class="btn btn-primary btn-block">
+                <h4>Boat</h4>
             </a>
         </div>
     </div>
 
+    <div class="row" style="margin-top: 30px">
+        <div class="col-lg-12">
+            <form>
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <a href="../Best-Route/BestRoute.html" class="btn btn-success" ><i class="glyphicon glyphicon-search" ></i> Find Best Route!</a>
+                    </div>
+                    <input id="address" type="text" class="form-control" placeholder="Enter an address" name="Address">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
     <div class="row">
+
+        <!--Google Maps Placeholder!-->
         <div class="col-lg-6">
             <div class="thumbnail" style="margin-top:30px">
                 <div id="map" style="width:inherit; height: 450px">My map will go here</div>
             </div>
         </div>
     </div>
+
+    <script>
+        makeMap();
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8bwyeut8ERZI-GOj97VS83F86iAWLbi8&callback=makeMap"></script>
+
 </div>
-
-<script>
-    makeMap();
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8bwyeut8ERZI-GOj97VS83F86iAWLbi8&callback=makeMap"></script>
 </body>
 </html>
