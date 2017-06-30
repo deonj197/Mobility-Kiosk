@@ -13,14 +13,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #555555;
+        }
+    </style>
 </head>
 
 <body>
 <div class="container">
-    <div class="jumbotron" style="margin-top:30px; margin-left:0px; padding:0px; background-color:#fff";>
-        <img id="ford-logo" class="img-responsive" style="width:1140px" src="../images/Ford-Smart-Mobility.png">
+    <div class="jumbotron" id="logoGlove">
+        <img id="ford-logo" class="img-responsive img-rounded" style="width:1140px" src="../images/Ford-Smart-Mobility.png">
     </div>
 
+    <!-- Navigation Buttons-->
     <div class="row">
         <div class="col-lg-2">
             <a href="../Main/index.html" class="btn btn-primary btn-block">
@@ -54,12 +60,13 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 30px">
+    <!-- Search bar -->
+    <div class="row" style="margin-top: 15px">
         <div class="col-lg-12">
             <form>
                 <div class="input-group">
                     <div class="input-group-btn">
-                        <a href="../Best-Route/BestRoute.html" class="btn btn-success" ><i class="glyphicon glyphicon-search" ></i> Find Best Route!</a>
+                        <a href="../Best-Route/BestRoute.html" class="btn btn-success" ><i class="glyphicon glyphicon-search" ></i> Find Car Routes!</a>
                     </div>
                     <input id="address" type="text" class="form-control" placeholder="Enter an address" name="Address">
                 </div>
@@ -72,7 +79,7 @@
 
         <!--Google Maps Placeholder!-->
         <div class="col-lg-6">
-            <div class="thumbnail" style="margin-top:30px">
+            <div class="thumbnail" style="margin-top:15px">
                 <div id="map" style="width:inherit; height: 450px">My map will go here</div>
             </div>
         </div>

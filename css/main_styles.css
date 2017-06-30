@@ -1,6 +1,10 @@
+body {
+    background: #555555;
+}
+
 a.btn-primary {
     background-color: #005a9c;
-    border-color: #ffffff;
+    border-color: #005a9c;
 }
 
 a.btn-success {
@@ -21,3 +25,14 @@ a.selected {
     border-color: #00a7ba;
     color: white;
 }
+
+#logoGlove {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 70px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
