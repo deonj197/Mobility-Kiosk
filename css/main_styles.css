@@ -16,7 +16,7 @@ a.selected {
     background-color: #448eb7;
 }
 
-#homePagePhotoGlove {
+div.PhotoGlove {
     background-color: #00a7ba;
     border-color: #00a7ba;
     color: white;
