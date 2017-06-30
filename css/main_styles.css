@@ -18,3 +18,28 @@ a.btn-success {
     border-color: #00a7ba;
     color: white;
 }
+
+#priceBlock {
+	display: inline-block;  
+	vertical-align: top;
+	height: 250px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #009933;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 7px #999;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
