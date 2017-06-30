@@ -22,8 +22,8 @@ a.selected {
     color: white;
 }
 
-#priceBlock {
-	display: inline-block;  
+div.priceBlock {
+	display: inline-block;
 	vertical-align: top;
 	height: 250px;
 }
@@ -45,4 +45,22 @@ a.selected {
 .button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+body {
+    background-color: #555555 !important;
+}
+
+#logoGlove {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 70px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#ford-logo {
+    width:1140px;
 }
