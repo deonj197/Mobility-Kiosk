@@ -12,6 +12,9 @@ a.btn-success {
     background-color: #005a9c;
     color: white;
 }
+a.selected {
+    background-color: #448eb7;
+}
 
 #photoGlove {
     background-color: #00a7ba;
