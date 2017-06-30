@@ -16,10 +16,11 @@ a.selected {
     background-color: #448eb7;
 }
 
-#photoGlove {
+#homePagePhotoGlove {
     background-color: #00a7ba;
     border-color: #00a7ba;
     color: white;
+    margin-top: 15px
 }
 
 div.priceBlock {
@@ -63,4 +64,8 @@ body {
 
 #ford-logo {
     width:1140px;
+}
+
+#mapGlove {
+    margin-top: 15px;
 }
