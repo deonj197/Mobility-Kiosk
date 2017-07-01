@@ -28,6 +28,20 @@ div.priceBlock {
 	vertical-align: top;
 	height: 250px;
 }
+div.description {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+}
+
+div.attractions {
+    background-color: #00a7ba;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    border:1px solid black;
+    padding: 2%;
+}
 
 .button {
   display: inline-block;
