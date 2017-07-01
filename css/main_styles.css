@@ -27,6 +27,7 @@ div.priceBlock {
 	display: inline-block;
 	vertical-align: top;
 	height: 250px;
+	width: 160px;
 }
 
 .button {
