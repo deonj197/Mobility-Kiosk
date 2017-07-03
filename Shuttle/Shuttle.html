@@ -13,6 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -54,9 +59,15 @@
         </div>
     </div>
 
-    <!--Search Bar-->
-    <div class="row" style="margin-top: 15px">
+	<div class="row" style="margin-top: 15px">
         <div class="col-lg-12">
+ 			<div class="well" style="margin-top:15px; margin-bottom:15px;">
+			<img src="ford_shuttle.jpg" class="img-responsive" style="float:right;height:80px">
+				<h1>Ford Shuttle Service</h1>
+			</div>
+			
+    <!--Search Bar-->
+        
             <form>
                 <div class="input-group">
                     <div class="input-group-btn">
@@ -77,7 +88,47 @@
                 <div id="map" style="width:inherit; height: 450px">My map will go here</div>
             </div>
         </div>
+		
+		<div class="col-lg-6">
+            <div class="well PhotoGlove">
+                <h2>Ford Shuttles Nearby!</h2>
+				<p>Grab a shuttle from this kiosk to another kiosk on the other side of the town!</p>	
+				<div class="well">        
+					<table class="table" style="margin-top: 15px; color: black; font-size: 18px" >
+					<thead>
+						<tr>
+							<th>Shuttle Number</th>
+							<th>Arrival Time</th>
+							<th>Destination</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Shuttle #309</td>
+							<td>1 Minute</td>
+							<td>Kiosk #2</td>
+						</tr>
+						<tr>
+							<td>Shuttle #412</td>
+							<td>2.5 Minutes</td>
+							<td>Kiosk #5</td>
+						</tr>
+						<tr>
+							<td>Shuttle #507</td>
+							<td>6 Minutes</td>
+							<td>Kiosk #3</td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<center>
+				<button class="button" style="margin-bottom: 25px">Request a Shuttle</button>
+				</center>
+		</div>
     </div>
+       
+    
 
     <script>
         makeMap();
